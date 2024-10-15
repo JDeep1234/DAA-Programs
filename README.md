@@ -1,25 +1,33 @@
-## Lab programs in 4th Semester of CSE.
-1. Apply divide and conquer strategy to solve sorting problem 
- Merge sort 
- Quicksort 
-2. Apply decrease and conquer strategy to solve graph problem 
- Breadth first search 
- Topological sorting using depth first search  
-3. Apply transform and conquer strategy  
- Heapsort 
- Checking element uniqueness after presorting 
-4. Apply input enhancement strategy to solve string-matching problem 
- Horspool‟s algorithm 
- Boyer – Moore‟s algorithm 
-5. Apply dynamic programming strategy to solve optimization problem 
- Warshall - Floyd‟s Algorithms,  
- Knapsack problem solution using memory function. 
-6. Apply greedy strategy to solve graph problem 
- Dijkstra‟s algorithm 
- Prim‟s algorithm 
-7. Apply backtracking strategy to solve combinatorial problem 
- N- Queen‟s problem 
- Subset – sum problem 
-8. Apply branch and bound strategy to solve combinatorial problem 
- Travelling salesperson problem 
- Assignment problem 
+# 4th Semester CSE Lab Programs
+
+## 1. Apply Divide and Conquer Strategy to Solve Sorting Problems  
+- **Merge Sort**  
+- **Quick Sort**
+
+## 2. Apply Decrease and Conquer Strategy to Solve Graph Problems  
+- **Breadth-First Search (BFS)**  
+- **Topological Sorting using Depth-First Search (DFS)**
+
+## 3. Apply Transform and Conquer Strategy  
+- **Heap Sort**  
+- **Checking Element Uniqueness after Presorting**
+
+## 4. Apply Input Enhancement Strategy to Solve String-Matching Problems  
+- **Horspool’s Algorithm**  
+- **Boyer–Moore Algorithm**
+
+## 5. Apply Dynamic Programming Strategy to Solve Optimization Problems  
+- **Warshall-Floyd Algorithms** (All-Pairs Shortest Path)  
+- **Knapsack Problem Solution using Memory Function**
+
+## 6. Apply Greedy Strategy to Solve Graph Problems  
+- **Dijkstra’s Algorithm** (Single-Source Shortest Path)  
+- **Prim’s Algorithm** (Minimum Spanning Tree)
+
+## 7. Apply Backtracking Strategy to Solve Combinatorial Problems  
+- **N-Queens Problem**  
+- **Subset-Sum Problem**
+
+## 8. Apply Branch and Bound Strategy to Solve Combinatorial Problems  
+- **Travelling Salesperson Problem** (TSP)  
+- **Assignment Problem**
