@@ -30,4 +30,4 @@
 
 ## 8. Apply Branch and Bound Strategy to Solve Combinatorial Problems  
 - [**Travelling Salesperson Problem (TSP)**](./tsp_prog.c)  
-- [**Assignment Problem**](./Assignment Branch and Bound Code.c)
+- [**Assignment Problem**](./ABB.c)
