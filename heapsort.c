@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>  // Include the time.h header for time functions
 
 void heapify(int arr[], int n)
 {
@@ -44,21 +45,31 @@ void heapSort(int arr[], int n)
 int main()
 {
     int arr[100], n, i;
-    clock_t start,end;
-    printf("Enter the number of elements: ");
+    clock_t start, end;
+    printf("Enter the number of elements (max 100): ");
     scanf("%d", &n);
+
+    // Input validation for number of elements
+    if (n < 1 || n > 100) {
+        printf("Number of elements must be between 1 and 100.\n");
+        return 1;  // Exit the program if invalid
+    }
+
     printf("Enter the elements: ");
     for (i = 1; i <= n; i++)
         scanf("%d", &arr[i]);
+
     start = clock(); 
     heapSort(arr, n);
     end = clock(); 
-    double total_time_taken = ((double)(end-start)*1000)/(CLOCKS_PER_SEC);
-    
+
+    double total_time_taken = ((double)(end - start) * 1000) / CLOCKS_PER_SEC;  // Time in milliseconds
+
     printf("The sorted array is: ");
     for (i = 1; i <= n; i++)
         printf("%d ", arr[i]);
     printf("\n");
-    printf("\nTime taken = %lfms\n",total_time_taken);
+    
+    printf("\nTime taken = %lf ms\n", total_time_taken);
     return 0;
 }
