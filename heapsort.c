@@ -44,15 +44,21 @@ void heapSort(int arr[], int n)
 int main()
 {
     int arr[100], n, i;
+    clock_t start,end;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     printf("Enter the elements: ");
     for (i = 1; i <= n; i++)
         scanf("%d", &arr[i]);
+    start = clock(); 
     heapSort(arr, n);
+    end = clock(); 
+    double total_time_taken = ((double)(end-start)*1000)/(CLOCKS_PER_SEC);
+    
     printf("The sorted array is: ");
     for (i = 1; i <= n; i++)
         printf("%d ", arr[i]);
     printf("\n");
+    printf("\nTime taken = %lfms\n",total_time_taken);
     return 0;
 }
