@@ -19,6 +19,7 @@
 ## 5. Apply Dynamic Programming Strategy to Solve Optimization Problems  
 - [**Warshall-Floyd Algorithms** (All-Pairs Shortest Path)](./floydsAlgo.c)  
 - [**Knapsack Problem Solution using Memory Function**](./knapSack.c)
+- [**Fractional Knapsack**](./FractionalKnapsack.c)
 
 ## 6. Apply Greedy Strategy to Solve Graph Problems  
 - [**Dijkstra’s Algorithm** (Single-Source Shortest Path)](./Dijkstras.c)  
