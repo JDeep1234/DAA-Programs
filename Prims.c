@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define INF 999
+#define INF 9999
 
 void prims(int n, int cost[10][10])
 {
